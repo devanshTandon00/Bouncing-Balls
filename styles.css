@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+p{
+  position: absolute;
+  color: transparent;
+  text-shadow: 0 0 2px red;
+  right: 5px;
+  top: 35px;
+  margin: 0;
+
+}
+
+body {
+  /* overflow is an imp property. If we change it to scroll we get scroll bars on the side  */
+  overflow: hidden;
+  height: inherit;
+
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
